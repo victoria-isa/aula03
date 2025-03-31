@@ -1,0 +1,10 @@
+print("Dados do coloborador")
+nome =input("digite seu nome:")
+idade =int(input("digite sua idade:"))
+salario =float(input("digite seu salario:"))
+print(f"Informações do colaborador {nome}; {idade}; {salario};")
+aumento = float(input("Quanto seu salário aumentou?(em nummeral,ex:20):"))
+conta = salario*(aumento/100)
+print(f"Valor do acrescimo desse mês: {conta}")
+soma = salario + conta
+print(f"O salário do mês: {soma}")
